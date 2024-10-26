@@ -1,0 +1,133 @@
+* {
+    background-color: #F5E9DA;
+}
+h2 {
+    text-align: center;
+    color: #A67B5B;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+header {
+    background-color: none;
+    color: #A67B5B;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar li a {
+    color: #A67B5B;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #C6A85E;
+}
+
+#menu-header{
+    color: #A67B5B; /* Rustic Brown for the header */
+    font-size: 45px; /* Adjust font size as needed */
+    text-align: center; /* Optional: Centers the header */
+    margin-bottom: 10px; /* Optional: Adds space below the header */
+}
+
+p {
+    color: #6B4F3F; /* Saddle Brown for an earthy, rich tone */
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.logo{
+    width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Keeps the aspect ratio */
+    display: block; /* Ensures the logo appears as a block element */
+    margin: 0 auto; /* Centers the logo horizontally */
+    padding-top: 20px; /* Optional: Adds some space at the top */
+}
+
+.container-images{ /* contains both images for easier manipulation */
+    display: flex;
+    justify-content: center;  /* Centers the images horizontally */
+    gap: 20px;                /* Adds space between the images */
+    margin: 20px 0;           /* Optional: Adds space above and below the images */
+}
+
+#description {
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.google-map { /* for google map */
+    display: flex;
+    justify-content: center; /* Centers the map horizontally */
+    margin: 20px 0;          /* Optional: Adds space above and below the map */
+}
+
+h3{
+    text-align: center;
+    color: #C2A57B;
+}
+
+#menu{
+    text-align: center;
+}
+
+#aboutUs{
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #A67B5B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C6A85E;
+}
